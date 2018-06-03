@@ -1,0 +1,325 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/* EXTRAS */
+body{ 
+	overflow-x: hidden
+}
+
+ul {
+
+	li{   
+	list-style: none;
+		}
+}
+
+header,nav, a, img, li{
+  transition: all 1s;
+  -moz-transition: all 1s; /* Firefox 4 */
+  -webkit-transition: all 1s; /* Safari and Chrome */
+  -o-transition: all 1s; /* Opera */
+}
+
+
+.paded{
+	padding-top: 5em;
+	padding-bottom: 3em;
+}
+ 
+.p-0{
+	padding: 0 !important;
+}
+
+.m-0{
+	margin: 0 !important;
+}
+
+.mgb-55{
+	margin-bottom: 55px;
+}
+
+
+
+/**********/
+
+#nav {
+  background-color: rgba(236, 240, 241,0.5);
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-width: 0 0 0px;
+  display: none;
+ 
+
+  	ul{
+  		padding: 0;
+  	}
+
+  	li{
+  		float: left;
+  		margin: 0px 30px;
+  	}
+
+  	a{
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: 'Ubuntu', sans-serif;
+  color: white !important;
+  	}
+
+  	a:hover{
+  		    
+    border-bottom: 4px solid #1abc9c;
+    padding-bottom: 5px;
+    transition: padding 0.5s;
+  	}
+
+   }
+
+
+
+.background{
+	background-image: url(../img/me-2.jpg);
+	background-attachment: fixed;
+	width: 100%;
+	height: 870px;
+	background-repeat: no-repeat;
+	background-position-x: 0;
+	position: relative;
+	background-size: cover;
+
+	.box-text-bg{
+		text-align: center;
+		margin-right: 270px;
+		margin-top: 95px;
+		float: right;
+		width: 30%;
+
+			h1{
+			color: white;
+			font-family: 'Ubuntu', sans-serif;	
+		    font-size: 90px;
+
+		 
+		}
+
+		h3{
+			color: white;
+			font-family: 'Ubuntu', sans-serif;
+			display: none;
+		}
+
+		h2{
+
+			font-size: 40px;
+			font-family: 'Ubuntu', sans-serif;
+			font-size: 40px;
+			color: white;
+		}
+
+		
+	}
+
+}
+
+.box-shadow{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(52, 73, 94,0.5); 
+}
+
+#aboutme{
+	position: absolute;
+	top: 600px;
+	width: 100%;
+	z-index: 2000;
+
+	.content-me{
+		background-color: white;
+		width: 50%;
+		margin: 0 auto;
+		padding-left: 40px;
+    padding-right: 40px;
+        padding-top: 80px;
+    padding-bottom: 80px;
+
+    h2{
+    	padding-top: 0px;
+	    color: coral;
+	    font-weight: 600;
+	    margin-bottom: 40px;
+    }
+
+    p{
+    	font-size: 1.3em;
+	    font-family: 'Ubuntu', sans-serif;
+	    padding-bottom: 30px;
+	    color: black;
+	    line-height: 40px;
+    }
+
+    a{
+    	color: black;
+    }
+	}
+}
+
+#skills{
+	background-image: url('../img/bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+	height: 870px;
+
+	h2{
+		font-family: 'Ubuntu', sans-serif;
+		color: white;
+		margin-top: 300px;
+		margin-bottom: 100px;	
+	}
+
+	figure{
+
+		img{
+
+			height: 130px;
+			margin: 0 auto;
+		}
+	}
+
+}
+
+#work{
+	background-color: #34495e;
+	height: 800px;
+
+	h2{
+		margin-top: 100px ; 
+		margin-bottom: 60px;
+		color: white;
+		font-weight: 600;
+	}
+
+		figure{
+		overflow: hidden;
+		padding: 0;
+		position: relative;
+
+
+		img{
+	transition:0.5s ease-in-out all;
+	filter: grayscale(100%);
+	/*transition: 1s;*/
+
+	}
+
+		.info{
+			position: absolute;
+    bottom: 0;
+    background-color: rgba(44, 62, 80, 0.6);
+    width: 100%;
+  /*  display: none;*/
+    margin-bottom: -70px;
+    transition: all 2s;
+    padding-left: 10px;
+    transition: margin 0.3s;
+
+    	h4{
+    		color: white;
+    		font-family: 'Ubuntu', sans-serif;
+    	}
+
+    	p{
+    		color: white;
+    		font-family: 'Ubuntu', sans-serif;
+    	}
+ 
+		}
+		
+	}
+
+	figure:hover .info{
+		display: block;
+		cursor: pointer;
+		transition: margin 0.3s;
+			margin-bottom: 0px;
+
+	}
+
+	figure:hover img{
+		filter: grayscale(0%);
+		cursor: pointer;
+	}
+
+}
+
+
+.hola{
+	width: 100px;
+	height: 100px;
+	background-color: black;
+
+	.n1{
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		background-color: red;
+		margin-top: 10px;
+	}
+}
+
+
+
+#footer ul{
+	width: 41%;
+  height: 50px;
+  padding-left: 155px;
+  padding-right: 155px;
+  margin: 35px auto;
+}
+
+#footer ul li {
+	list-style: none;
+  float: left;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+#footer ul li img{
+	width: 50px;
+	height: 50px;
+}
+
+@media (min-width: 300px) and (max-width: 400px){
+
+ .background .box-text-bg {
+ 	margin: 100px auto;
+ 	width: 200px;
+ 	float: none;
+
+ 		h1,h2{
+ 			font-size: 30px;
+ 			border-bottom: 1.5px solid white;
+ 			width: 200px;
+ 			padding-bottom: 5px;
+ 			}
+
+ 		h3{
+ 			font-size: 30px;
+ 			width: 200px;
+ 			padding-bottom: 5px;
+ 		}
+
+
+
+ 	}
+
+
+}
